@@ -66,11 +66,7 @@ def assistant(command):
         
     elif 'what is your name' in command:
         reply('My name is Rock')
-        speak.Speak('My name is rock')
-
-    elif ' chutiya hai kya' in command:
-        reply('yes i know, i know many other words')
-        speak.Speak('yes i know, i know many other words ask me') 
+        speak.Speak('My name is rock') 
 
     elif 'joke' in command:
         res = requests.get(
